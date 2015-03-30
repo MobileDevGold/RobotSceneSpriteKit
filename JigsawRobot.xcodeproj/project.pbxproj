@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FFEDD31AB6F7C6006A3FD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FFEDD21AB6F7C6006A3FD2 /* main.m */; };
+		07FFEDD61AB6F7C6006A3FD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FFEDD51AB6F7C6006A3FD2 /* AppDelegate.m */; };
+		07FFEDDB1AB6F7C6006A3FD2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 07FFEDDA1AB6F7C6006A3FD2 /* GameScene.sks */; };
+		07FFEDDE1AB6F7C6006A3FD2 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FFEDDD1AB6F7C6006A3FD2 /* GameViewController.m */; };
+		07FFEDE11AB6F7C6006A3FD2 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FFEDDF1AB6F7C6006A3FD2 /* Main_iPhone.storyboard */; };
+		07FFEDE61AB6F7C6006A3FD2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07FFEDE41AB6F7C6006A3FD2 /* LaunchScreen.xib */; };
+		07FFEDF21AB6F7C6006A3FD2 /* JigsawRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FFEDF11AB6F7C6006A3FD2 /* JigsawRobotTests.m */; };
+		84301E001AB8D28C00DD2951 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84301DFF1AB8D28C00DD2951 /* Images.xcassets */; };
+		84335F571AC938E300C4FE70 /* bodies in Resources */ = {isa = PBXBuildFile; fileRef = 84335F541AC938E300C4FE70 /* bodies */; };
+		84335F581AC938E300C4FE70 /* robot.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 84335F551AC938E300C4FE70 /* robot.atlasc */; };
+		84335F591AC938E300C4FE70 /* skeletons in Resources */ = {isa = PBXBuildFile; fileRef = 84335F561AC938E300C4FE70 /* skeletons */; };
+		843595641AB9683000C18BBB /* Head.m in Sources */ = {isa = PBXBuildFile; fileRef = 843595631AB9683000C18BBB /* Head.m */; };
+		843595671AB9685500C18BBB /* Antennae.m in Sources */ = {isa = PBXBuildFile; fileRef = 843595661AB9685500C18BBB /* Antennae.m */; };
+		8435956A1AB9687F00C18BBB /* Arm.m in Sources */ = {isa = PBXBuildFile; fileRef = 843595691AB9687F00C18BBB /* Arm.m */; };
+		843595731AB968C100C18BBB /* Leg.m in Sources */ = {isa = PBXBuildFile; fileRef = 843595721AB968C100C18BBB /* Leg.m */; };
+		843595761AB968CE00C18BBB /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = 843595751AB968CE00C18BBB /* Hand.m */; };
+		843595791AB968ED00C18BBB /* Torso.m in Sources */ = {isa = PBXBuildFile; fileRef = 843595781AB968ED00C18BBB /* Torso.m */; };
+		845AA6371AB75285005DC194 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845AA6361AB75285005DC194 /* Main_iPad.storyboard */; };
+		84C84B9C1AC45E7E00EFB794 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FFEDD81AB6F7C6006A3FD2 /* GameScene.m */; };
+		84C84BAD1AC45EDD00EFB794 /* GHBone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84C84BA01AC45EDD00EFB794 /* GHBone.mm */; };
+		84C84BAE1AC45EDD00EFB794 /* GHBoneSkin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84C84BA21AC45EDD00EFB794 /* GHBoneSkin.mm */; };
+		84C84BAF1AC45EDD00EFB794 /* GHSkeletalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C84BA61AC45EDD00EFB794 /* GHSkeletalAnimation.m */; };
+		84C84BB01AC45EDD00EFB794 /* GHSkeletalAnimationCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84C84BA81AC45EDD00EFB794 /* GHSkeletalAnimationCache.mm */; };
+		84C84BB11AC45EDD00EFB794 /* GHSkeleton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84C84BAA1AC45EDD00EFB794 /* GHSkeleton.mm */; };
+		84C84BB21AC45EDD00EFB794 /* GHSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C84BAC1AC45EDD00EFB794 /* GHSprite.m */; };
+		84C84BDD1AC46EBA00EFB794 /* confetti.sks in Resources */ = {isa = PBXBuildFile; fileRef = 84C84BDC1AC46EBA00EFB794 /* confetti.sks */; };
+		84C84BE11AC4700A00EFB794 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C84BDF1AC4700A00EFB794 /* spark.png */; };
+		84C84BE21AC4700A00EFB794 /* square@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C84BE01AC4700A00EFB794 /* square@2x.png */; };
+		84F820591ABCCE8C00E9F3A4 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F820581ABCCE8C00E9F3A4 /* Robot.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07FFEDEC1AB6F7C6006A3FD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FFEDC51AB6F7C6006A3FD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FFEDCC1AB6F7C6006A3FD2;
+			remoteInfo = JigsawRobot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FFEDCD1AB6F7C6006A3FD2 /* JigsawRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JigsawRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FFEDD11AB6F7C6006A3FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FFEDD21AB6F7C6006A3FD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07FFEDD41AB6F7C6006A3FD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07FFEDD51AB6F7C6006A3FD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07FFEDD71AB6F7C6006A3FD2 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		07FFEDD81AB6F7C6006A3FD2 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		07FFEDDA1AB6F7C6006A3FD2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		07FFEDDC1AB6F7C6006A3FD2 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		07FFEDDD1AB6F7C6006A3FD2 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		07FFEDE01AB6F7C6006A3FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		07FFEDE51AB6F7C6006A3FD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07FFEDEB1AB6F7C6006A3FD2 /* JigsawRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JigsawRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FFEDF01AB6F7C6006A3FD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FFEDF11AB6F7C6006A3FD2 /* JigsawRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JigsawRobotTests.m; sourceTree = "<group>"; };
+		84301DFF1AB8D28C00DD2951 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84335F541AC938E300C4FE70 /* bodies */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bodies; sourceTree = "<group>"; };
+		84335F551AC938E300C4FE70 /* robot.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = robot.atlasc; sourceTree = "<group>"; };
+		84335F561AC938E300C4FE70 /* skeletons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = skeletons; sourceTree = "<group>"; };
+		843595621AB9683000C18BBB /* Head.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Head.h; sourceTree = "<group>"; };
+		843595631AB9683000C18BBB /* Head.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Head.m; sourceTree = "<group>"; };
+		843595651AB9685500C18BBB /* Antennae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Antennae.h; sourceTree = "<group>"; };
+		843595661AB9685500C18BBB /* Antennae.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Antennae.m; sourceTree = "<group>"; };
+		843595681AB9687F00C18BBB /* Arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arm.h; sourceTree = "<group>"; };
+		843595691AB9687F00C18BBB /* Arm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arm.m; sourceTree = "<group>"; };
+		843595711AB968C100C18BBB /* Leg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leg.h; sourceTree = "<group>"; };
+		843595721AB968C100C18BBB /* Leg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leg.m; sourceTree = "<group>"; };
+		843595741AB968CE00C18BBB /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		843595751AB968CE00C18BBB /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
+		843595771AB968ED00C18BBB /* Torso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Torso.h; sourceTree = "<group>"; };
+		843595781AB968ED00C18BBB /* Torso.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Torso.m; sourceTree = "<group>"; };
+		845AA6361AB75285005DC194 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		84C84B9E1AC45EDD00EFB794 /* GameDevHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDevHelper.h; sourceTree = "<group>"; };
+		84C84B9F1AC45EDD00EFB794 /* GHBone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBone.h; sourceTree = "<group>"; };
+		84C84BA01AC45EDD00EFB794 /* GHBone.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHBone.mm; sourceTree = "<group>"; };
+		84C84BA11AC45EDD00EFB794 /* GHBoneSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBoneSkin.h; sourceTree = "<group>"; };
+		84C84BA21AC45EDD00EFB794 /* GHBoneSkin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHBoneSkin.mm; sourceTree = "<group>"; };
+		84C84BA31AC45EDD00EFB794 /* ghConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ghConfig.h; sourceTree = "<group>"; };
+		84C84BA41AC45EDD00EFB794 /* ghMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ghMacros.h; sourceTree = "<group>"; };
+		84C84BA51AC45EDD00EFB794 /* GHSkeletalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSkeletalAnimation.h; sourceTree = "<group>"; };
+		84C84BA61AC45EDD00EFB794 /* GHSkeletalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHSkeletalAnimation.m; sourceTree = "<group>"; };
+		84C84BA71AC45EDD00EFB794 /* GHSkeletalAnimationCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSkeletalAnimationCache.h; sourceTree = "<group>"; };
+		84C84BA81AC45EDD00EFB794 /* GHSkeletalAnimationCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHSkeletalAnimationCache.mm; sourceTree = "<group>"; };
+		84C84BA91AC45EDD00EFB794 /* GHSkeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSkeleton.h; sourceTree = "<group>"; };
+		84C84BAA1AC45EDD00EFB794 /* GHSkeleton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GHSkeleton.mm; sourceTree = "<group>"; };
+		84C84BAB1AC45EDD00EFB794 /* GHSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHSprite.h; sourceTree = "<group>"; };
+		84C84BAC1AC45EDD00EFB794 /* GHSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHSprite.m; sourceTree = "<group>"; };
+		84C84BDC1AC46EBA00EFB794 /* confetti.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = confetti.sks; path = ../confetti.sks; sourceTree = "<group>"; };
+		84C84BDE1AC46F3400EFB794 /* UniversalHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UniversalHelper.h; path = ../UniversalHelper.h; sourceTree = "<group>"; };
+		84C84BDF1AC4700A00EFB794 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		84C84BE01AC4700A00EFB794 /* square@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square@2x.png"; sourceTree = "<group>"; };
+		84F820571ABCCE8C00E9F3A4 /* Robot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		84F820581ABCCE8C00E9F3A4 /* Robot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07FFEDCA1AB6F7C6006A3FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FFEDE81AB6F7C6006A3FD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FFEDC41AB6F7C6006A3FD2 = {
+			isa = PBXGroup;
+			children = (
+				07FFEDCF1AB6F7C6006A3FD2 /* JigsawRobot */,
+				07FFEDEE1AB6F7C6006A3FD2 /* JigsawRobotTests */,
+				07FFEDCE1AB6F7C6006A3FD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07FFEDCE1AB6F7C6006A3FD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07FFEDCD1AB6F7C6006A3FD2 /* JigsawRobot.app */,
+				07FFEDEB1AB6F7C6006A3FD2 /* JigsawRobotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FFEDCF1AB6F7C6006A3FD2 /* JigsawRobot */ = {
+			isa = PBXGroup;
+			children = (
+				84C84B9D1AC45EDD00EFB794 /* GameDevHelperAPI */,
+				07FFEDD41AB6F7C6006A3FD2 /* AppDelegate.h */,
+				07FFEDD51AB6F7C6006A3FD2 /* AppDelegate.m */,
+				07FFEDD71AB6F7C6006A3FD2 /* GameScene.h */,
+				07FFEDD81AB6F7C6006A3FD2 /* GameScene.m */,
+				84F820571ABCCE8C00E9F3A4 /* Robot.h */,
+				84F820581ABCCE8C00E9F3A4 /* Robot.m */,
+				843595621AB9683000C18BBB /* Head.h */,
+				843595631AB9683000C18BBB /* Head.m */,
+				843595651AB9685500C18BBB /* Antennae.h */,
+				843595661AB9685500C18BBB /* Antennae.m */,
+				843595681AB9687F00C18BBB /* Arm.h */,
+				843595691AB9687F00C18BBB /* Arm.m */,
+				843595711AB968C100C18BBB /* Leg.h */,
+				843595721AB968C100C18BBB /* Leg.m */,
+				843595741AB968CE00C18BBB /* Hand.h */,
+				843595751AB968CE00C18BBB /* Hand.m */,
+				843595771AB968ED00C18BBB /* Torso.h */,
+				843595781AB968ED00C18BBB /* Torso.m */,
+				07FFEDDA1AB6F7C6006A3FD2 /* GameScene.sks */,
+				07FFEDDC1AB6F7C6006A3FD2 /* GameViewController.h */,
+				07FFEDDD1AB6F7C6006A3FD2 /* GameViewController.m */,
+				845AA6361AB75285005DC194 /* Main_iPad.storyboard */,
+				07FFEDDF1AB6F7C6006A3FD2 /* Main_iPhone.storyboard */,
+				07FFEDE41AB6F7C6006A3FD2 /* LaunchScreen.xib */,
+				84301DFF1AB8D28C00DD2951 /* Images.xcassets */,
+				845AA6381AB808CF005DC194 /* Resources */,
+				07FFEDD01AB6F7C6006A3FD2 /* Supporting Files */,
+			);
+			path = JigsawRobot;
+			sourceTree = "<group>";
+		};
+		07FFEDD01AB6F7C6006A3FD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07FFEDD11AB6F7C6006A3FD2 /* Info.plist */,
+				07FFEDD21AB6F7C6006A3FD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07FFEDEE1AB6F7C6006A3FD2 /* JigsawRobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				07FFEDF11AB6F7C6006A3FD2 /* JigsawRobotTests.m */,
+				07FFEDEF1AB6F7C6006A3FD2 /* Supporting Files */,
+			);
+			path = JigsawRobotTests;
+			sourceTree = "<group>";
+		};
+		07FFEDEF1AB6F7C6006A3FD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07FFEDF01AB6F7C6006A3FD2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		845AA6381AB808CF005DC194 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84335F541AC938E300C4FE70 /* bodies */,
+				84335F551AC938E300C4FE70 /* robot.atlasc */,
+				84335F561AC938E300C4FE70 /* skeletons */,
+				84C84BDF1AC4700A00EFB794 /* spark.png */,
+				84C84BE01AC4700A00EFB794 /* square@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84C84B9D1AC45EDD00EFB794 /* GameDevHelperAPI */ = {
+			isa = PBXGroup;
+			children = (
+				84C84BDE1AC46F3400EFB794 /* UniversalHelper.h */,
+				84C84BDC1AC46EBA00EFB794 /* confetti.sks */,
+				84C84B9E1AC45EDD00EFB794 /* GameDevHelper.h */,
+				84C84B9F1AC45EDD00EFB794 /* GHBone.h */,
+				84C84BA01AC45EDD00EFB794 /* GHBone.mm */,
+				84C84BA11AC45EDD00EFB794 /* GHBoneSkin.h */,
+				84C84BA21AC45EDD00EFB794 /* GHBoneSkin.mm */,
+				84C84BA31AC45EDD00EFB794 /* ghConfig.h */,
+				84C84BA41AC45EDD00EFB794 /* ghMacros.h */,
+				84C84BA51AC45EDD00EFB794 /* GHSkeletalAnimation.h */,
+				84C84BA61AC45EDD00EFB794 /* GHSkeletalAnimation.m */,
+				84C84BA71AC45EDD00EFB794 /* GHSkeletalAnimationCache.h */,
+				84C84BA81AC45EDD00EFB794 /* GHSkeletalAnimationCache.mm */,
+				84C84BA91AC45EDD00EFB794 /* GHSkeleton.h */,
+				84C84BAA1AC45EDD00EFB794 /* GHSkeleton.mm */,
+				84C84BAB1AC45EDD00EFB794 /* GHSprite.h */,
+				84C84BAC1AC45EDD00EFB794 /* GHSprite.m */,
+			);
+			path = GameDevHelperAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FFEDCC1AB6F7C6006A3FD2 /* JigsawRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FFEDF51AB6F7C6006A3FD2 /* Build configuration list for PBXNativeTarget "JigsawRobot" */;
+			buildPhases = (
+				07FFEDC91AB6F7C6006A3FD2 /* Sources */,
+				07FFEDCA1AB6F7C6006A3FD2 /* Frameworks */,
+				07FFEDCB1AB6F7C6006A3FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JigsawRobot;
+			productName = JigsawRobot;
+			productReference = 07FFEDCD1AB6F7C6006A3FD2 /* JigsawRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07FFEDEA1AB6F7C6006A3FD2 /* JigsawRobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FFEDF81AB6F7C6006A3FD2 /* Build configuration list for PBXNativeTarget "JigsawRobotTests" */;
+			buildPhases = (
+				07FFEDE71AB6F7C6006A3FD2 /* Sources */,
+				07FFEDE81AB6F7C6006A3FD2 /* Frameworks */,
+				07FFEDE91AB6F7C6006A3FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FFEDED1AB6F7C6006A3FD2 /* PBXTargetDependency */,
+			);
+			name = JigsawRobotTests;
+			productName = JigsawRobotTests;
+			productReference = 07FFEDEB1AB6F7C6006A3FD2 /* JigsawRobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07FFEDC51AB6F7C6006A3FD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Simon Hurst";
+				TargetAttributes = {
+					07FFEDCC1AB6F7C6006A3FD2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					07FFEDEA1AB6F7C6006A3FD2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 07FFEDCC1AB6F7C6006A3FD2;
+					};
+				};
+			};
+			buildConfigurationList = 07FFEDC81AB6F7C6006A3FD2 /* Build configuration list for PBXProject "JigsawRobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07FFEDC41AB6F7C6006A3FD2;
+			productRefGroup = 07FFEDCE1AB6F7C6006A3FD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07FFEDCC1AB6F7C6006A3FD2 /* JigsawRobot */,
+				07FFEDEA1AB6F7C6006A3FD2 /* JigsawRobotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07FFEDCB1AB6F7C6006A3FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FFEDE61AB6F7C6006A3FD2 /* LaunchScreen.xib in Resources */,
+				84335F591AC938E300C4FE70 /* skeletons in Resources */,
+				84335F571AC938E300C4FE70 /* bodies in Resources */,
+				07FFEDDB1AB6F7C6006A3FD2 /* GameScene.sks in Resources */,
+				84301E001AB8D28C00DD2951 /* Images.xcassets in Resources */,
+				84335F581AC938E300C4FE70 /* robot.atlasc in Resources */,
+				84C84BE11AC4700A00EFB794 /* spark.png in Resources */,
+				84C84BE21AC4700A00EFB794 /* square@2x.png in Resources */,
+				845AA6371AB75285005DC194 /* Main_iPad.storyboard in Resources */,
+				84C84BDD1AC46EBA00EFB794 /* confetti.sks in Resources */,
+				07FFEDE11AB6F7C6006A3FD2 /* Main_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FFEDE91AB6F7C6006A3FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07FFEDC91AB6F7C6006A3FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C84BAE1AC45EDD00EFB794 /* GHBoneSkin.mm in Sources */,
+				84C84BAD1AC45EDD00EFB794 /* GHBone.mm in Sources */,
+				843595641AB9683000C18BBB /* Head.m in Sources */,
+				843595671AB9685500C18BBB /* Antennae.m in Sources */,
+				07FFEDDE1AB6F7C6006A3FD2 /* GameViewController.m in Sources */,
+				84C84BB01AC45EDD00EFB794 /* GHSkeletalAnimationCache.mm in Sources */,
+				07FFEDD61AB6F7C6006A3FD2 /* AppDelegate.m in Sources */,
+				84C84BAF1AC45EDD00EFB794 /* GHSkeletalAnimation.m in Sources */,
+				84C84B9C1AC45E7E00EFB794 /* GameScene.m in Sources */,
+				84C84BB11AC45EDD00EFB794 /* GHSkeleton.mm in Sources */,
+				8435956A1AB9687F00C18BBB /* Arm.m in Sources */,
+				843595761AB968CE00C18BBB /* Hand.m in Sources */,
+				843595791AB968ED00C18BBB /* Torso.m in Sources */,
+				84F820591ABCCE8C00E9F3A4 /* Robot.m in Sources */,
+				843595731AB968C100C18BBB /* Leg.m in Sources */,
+				84C84BB21AC45EDD00EFB794 /* GHSprite.m in Sources */,
+				07FFEDD31AB6F7C6006A3FD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FFEDE71AB6F7C6006A3FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FFEDF21AB6F7C6006A3FD2 /* JigsawRobotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FFEDED1AB6F7C6006A3FD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FFEDCC1AB6F7C6006A3FD2 /* JigsawRobot */;
+			targetProxy = 07FFEDEC1AB6F7C6006A3FD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07FFEDDF1AB6F7C6006A3FD2 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FFEDE01AB6F7C6006A3FD2 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		07FFEDE41AB6F7C6006A3FD2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FFEDE51AB6F7C6006A3FD2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07FFEDF31AB6F7C6006A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07FFEDF41AB6F7C6006A3FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07FFEDF61AB6F7C6006A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JigsawRobot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		07FFEDF71AB6F7C6006A3FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JigsawRobot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		07FFEDF91AB6F7C6006A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JigsawRobotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JigsawRobot.app/JigsawRobot";
+			};
+			name = Debug;
+		};
+		07FFEDFA1AB6F7C6006A3FD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JigsawRobotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JigsawRobot.app/JigsawRobot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FFEDC81AB6F7C6006A3FD2 /* Build configuration list for PBXProject "JigsawRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FFEDF31AB6F7C6006A3FD2 /* Debug */,
+				07FFEDF41AB6F7C6006A3FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FFEDF51AB6F7C6006A3FD2 /* Build configuration list for PBXNativeTarget "JigsawRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FFEDF61AB6F7C6006A3FD2 /* Debug */,
+				07FFEDF71AB6F7C6006A3FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FFEDF81AB6F7C6006A3FD2 /* Build configuration list for PBXNativeTarget "JigsawRobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FFEDF91AB6F7C6006A3FD2 /* Debug */,
+				07FFEDFA1AB6F7C6006A3FD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07FFEDC51AB6F7C6006A3FD2 /* Project object */;
+}

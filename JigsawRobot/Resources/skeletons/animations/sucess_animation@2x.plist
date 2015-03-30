@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>connectionFrames</key>
+	<array/>
+	<key>metadata</key>
+	<dict>
+		<key>app</key>
+		<string>SpriteHelper</string>
+		<key>author</key>
+		<string>Vladu Bogdan</string>
+		<key>version</key>
+		<real>1</real>
+		<key>web</key>
+		<string>http://www.gamedevhelper.com</string>
+	</dict>
+	<key>name</key>
+	<string>sucess_animation</string>
+	<key>playMode</key>
+	<integer>1</integer>
+	<key>positionFrames</key>
+	<array>
+		<dict>
+			<key>bones</key>
+			<dict>
+				<key>RootBone</key>
+				<string>{0, 0}</string>
+				<key>UntitledNode</key>
+				<string>{-157, 61}</string>
+				<key>UntitledNode_1</key>
+				<string>{-187, -66}</string>
+				<key>UntitledNode_10</key>
+				<string>{1, 155}</string>
+				<key>UntitledNode_11</key>
+				<string>{31, 193}</string>
+				<key>UntitledNode_12</key>
+				<string>{-13, -169}</string>
+				<key>UntitledNode_13</key>
+				<string>{-47, -190}</string>
+				<key>UntitledNode_14</key>
+				<string>{20, -189}</string>
+				<key>UntitledNode_15</key>
+				<string>{-75, -284}</string>
+				<key>UntitledNode_16</key>
+				<string>{-89, -384}</string>
+				<key>UntitledNode_17</key>
+				<string>{47, -283}</string>
+				<key>UntitledNode_18</key>
+				<string>{54, -382}</string>
+				<key>UntitledNode_19</key>
+				<string>{1, 31}</string>
+				<key>UntitledNode_2</key>
+				<string>{-182, -172}</string>
+				<key>UntitledNode_3</key>
+				<string>{-216, -229}</string>
+				<key>UntitledNode_4</key>
+				<string>{-145, -238}</string>
+				<key>UntitledNode_5</key>
+				<string>{155, 63}</string>
+				<key>UntitledNode_6</key>
+				<string>{185, -63}</string>
+				<key>UntitledNode_7</key>
+				<string>{178, -171}</string>
+				<key>UntitledNode_8</key>
+				<string>{142, -236}</string>
+				<key>UntitledNode_9</key>
+				<string>{214, -227}</string>
+			</dict>
+			<key>time</key>
+			<real>0.0031640625093132257</real>
+		</dict>
+		<dict>
+			<key>bones</key>
+			<dict>
+				<key>UntitledNode_1</key>
+				<string>{-287, 51}</string>
+				<key>UntitledNode_2</key>
+				<string>{-393, 40}</string>
+				<key>UntitledNode_3</key>
+				<string>{-432, -14}</string>
+				<key>UntitledNode_4</key>
+				<string>{-355, -25}</string>
+				<key>UntitledNode_6</key>
+				<string>{285, 56}</string>
+				<key>UntitledNode_7</key>
+				<string>{392, 45}</string>
+				<key>UntitledNode_8</key>
+				<string>{364, -23}</string>
+				<key>UntitledNode_9</key>
+				<string>{437, -4}</string>
+			</dict>
+			<key>time</key>
+			<real>0.49468749761581421</real>
+		</dict>
+		<dict>
+			<key>bones</key>
+			<dict>
+				<key>UntitledNode_1</key>
+				<string>{-188, -66}</string>
+				<key>UntitledNode_15</key>
+				<string>{-73, -285}</string>
+				<key>UntitledNode_16</key>
+				<string>{-167, -318}</string>
+				<key>UntitledNode_2</key>
+				<string>{-182, -172}</string>
+				<key>UntitledNode_3</key>
+				<string>{-217, -228}</string>
+				<key>UntitledNode_4</key>
+				<string>{-146, -238}</string>
+				<key>UntitledNode_6</key>
+				<string>{183, -64}</string>
+				<key>UntitledNode_7</key>
+				<string>{182, -172}</string>
+				<key>UntitledNode_8</key>
+				<string>{145, -237}</string>
+				<key>UntitledNode_9</key>
+				<string>{216, -229}</string>
+			</dict>
+			<key>time</key>
+			<real>0.88445311784744263</real>
+		</dict>
+		<dict>
+			<key>bones</key>
+			<dict>
+				<key>UntitledNode_15</key>
+				<string>{-76, -284}</string>
+				<key>UntitledNode_16</key>
+				<string>{-86, -384}</string>
+				<key>UntitledNode_17</key>
+				<string>{101, -244}</string>
+				<key>UntitledNode_18</key>
+				<string>{108, -343}</string>
+			</dict>
+			<key>time</key>
+			<real>1.2694140672683716</real>
+		</dict>
+		<dict>
+			<key>bones</key>
+			<dict>
+				<key>UntitledNode_10</key>
+				<string>{-1, 155}</string>
+				<key>UntitledNode_11</key>
+				<string>{36, 187}</string>
+				<key>UntitledNode_17</key>
+				<string>{45, -283}</string>
+				<key>UntitledNode_18</key>
+				<string>{54, -383}</string>
+			</dict>
+			<key>time</key>
+			<real>1.6062500476837158</real>
+		</dict>
+		<dict>
+			<key>bones</key>
+			<dict>
+				<key>UntitledNode_1</key>
+				<string>{-187, -66}</string>
+				<key>UntitledNode_10</key>
+				<string>{1, 155}</string>
+				<key>UntitledNode_11</key>
+				<string>{31, 193}</string>
+				<key>UntitledNode_15</key>
+				<string>{-75, -284}</string>
+				<key>UntitledNode_16</key>
+				<string>{-89, -384}</string>
+				<key>UntitledNode_17</key>
+				<string>{47, -283}</string>
+				<key>UntitledNode_18</key>
+				<string>{54, -382}</string>
+				<key>UntitledNode_3</key>
+				<string>{-216, -229}</string>
+				<key>UntitledNode_4</key>
+				<string>{-145, -238}</string>
+				<key>UntitledNode_6</key>
+				<string>{185, -63}</string>
+				<key>UntitledNode_7</key>
+				<string>{178, -171}</string>
+				<key>UntitledNode_8</key>
+				<string>{142, -236}</string>
+				<key>UntitledNode_9</key>
+				<string>{214, -227}</string>
+			</dict>
+			<key>time</key>
+			<real>2</real>
+		</dict>
+	</array>
+	<key>skinFrames</key>
+	<array/>
+	<key>spriteTransformFrames</key>
+	<array/>
+	<key>totalTime</key>
+	<real>2</real>
+	<key>visibilityFrames</key>
+	<array/>
+	<key>zOrderFrames</key>
+	<array/>
+</dict>
+</plist>
